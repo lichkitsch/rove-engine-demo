@@ -17,13 +17,10 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Alegreya SC', serif; }
 var pronouns = ["they","them"];
 
 ::StoryTitle
-Modern Twee
+Gold House
 
 :: Start
-This is the first passage in a Twine game!
-I sure hope this works… It did!
-
-Added a stylesheet, let's try again.
+Welcome to **Gold House**, the demo for the Rove Engine TTRPG system.
 
 [[This is a link|Next Passage]]
 
@@ -32,9 +29,3 @@ Added a stylesheet, let's try again.
 The player just clicked a link to get here!
 Now let’s see how it handles an update from mobile…
 Yes, yes… excellent.
-
-[[Oh look, another link.|A Third Passage]]
-
-
-:: A Third Passage
-Coming back to this, I'm not sure how it's going to work as a game but I'm excited to learn.
