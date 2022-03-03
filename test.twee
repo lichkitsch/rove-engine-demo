@@ -19,9 +19,9 @@ var pronouns = ["they","them"];
 ::StoryTitle
 Gold House
 
+:: Start
 [img("./assets/ekg_1.svg")]
 
-:: Start
 Welcome to //Gold House//, the demo for the Rove Engine TTRPG system.
 
 [[This is a link|Next Passage]]
