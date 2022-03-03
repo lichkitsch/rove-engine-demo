@@ -11,6 +11,9 @@
 
 body {
   font-family: 'Average', serif;
+}
+
+.passage {
   text-align: center;
 }
 
