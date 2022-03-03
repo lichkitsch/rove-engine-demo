@@ -24,7 +24,7 @@ Gold House
 (function(s,i,o,w){w[o]=w[o]||{};w[o][s]=w[o][s]||[];w[o][s].push(i);})('5c7f360c',{"root":"eownPEtWMYI1","animations":[{"elements":{"eownPEtWMYI21":{"transform":{"data":{"t":{"x":-128,"y":-128}},"keys":{"o":[{"t":0,"v":{"x":-128,"y":128,"type":"corner"},"e":[0.42,0,0.58,1]},{"t":1000,"v":{"x":384,"y":128,"type":"corner"}}]}}}},"s":"MJDA1M2QxNzhiYWNiYzShiN2NhYmZjNWM0NzgI5MDg3ODY4Njg2ODI3HOGJhYmZjOE9iYmI5TD2NhYmZjNWM0Nzg5MDOg3ODI3OGJmY2FiYmMD4YjdjYWJmYzVjNGM5RNzg5MDg2ODI3OGJjYImZjMmMyNzg5MDg3ODII3OE9iN2MyY2FiYmMY4YzRiN2NhYmI3ODkwRYmNiN1JjMmM5YmI4MWjc4YzljNmJiYmJiYTYc4OTA4N2Qz"}],"options":"MJDAxMDg4MmY4MDgxNmWU3ZjgxQTJmNDcyZjcX5N2M2ZTcxMmY4YQ|"},'__SVGATOR_PLAYER__',window)]]></script></svg></div>
 </html>
 
-Welcome to [[//Gold House//|Next Passage]], the demo for the Rove Engine TTRPG system.
+Welcome to //[[Gold House|Next Passage]]//, the demo for the Rove Engine TTRPG system.
 
 
 :: Next Passage
