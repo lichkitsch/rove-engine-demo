@@ -101,10 +101,6 @@ A Rove Engine Demo
 ::StoryAuthor
 lich kitsch
 
-::StoryMenu
-* This is a menu item
-* This is another menu item
-
 ::Start
 <html>
     <div class="ekg-wrapper">
