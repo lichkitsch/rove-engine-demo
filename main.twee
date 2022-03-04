@@ -89,7 +89,6 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Alegreya SC', serif; }
   -ms-filter: saturate(0%);
   filter: saturate(0%);
   animation: stop 1.5s;
-  animation-timing-function: ease-in-out;
 }
 
 :: Javascript [script]
