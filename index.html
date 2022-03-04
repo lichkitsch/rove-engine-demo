@@ -153,6 +153,20 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Alegreya SC', serif; }
   -ms-filter: hue-rotate(256deg) saturate(999%);
   filter: hue-rotate(256deg) saturate(999%);
   animation: beat 0.4s infinite;
+}
+
+@keyframes stop {
+  0% { clip-path: inset(0% 100% 0% 0%); }
+  100% { clip-path: inset(0% 0% 0% 0%); }
+}
+
+.ekg-base.flat > .ekg-line {
+  -webkit-filter: saturate(0%);
+  -moz-filter: saturate(0%);
+  -o-filter: saturate(0%);
+  -ms-filter: saturate(0%);
+  filter: saturate(0%);
+  animation: stop 1s;
 }</style><script role="script" id="twine-user-script" type="text/twine-javascript">var pronouns = ["they","them"];</script><tw-passagedata pid="1" name="Start" tags="" position="100,100" size="100,100">&lt;html&gt;
     &lt;div class=&quot;ekg-wrapper&quot;&gt;
       &lt;div class=&quot;ekg-base&quot;&gt;
@@ -171,7 +185,7 @@ Welcome to &#39;&#39;//[[Gold House|Next Passage]]//&#39;&#39;, a single-player 
 
 By the pricking of my thumbs, [[something wicked|Third Passage]] this way comes.</tw-passagedata><tw-passagedata pid="3" name="Third Passage" tags="" position="350,100" size="100,100">&lt;html&gt;
     &lt;div class=&quot;ekg-wrapper&quot;&gt;
-      &lt;div class=&quot;ekg-base&quot;&gt;
+      &lt;div class=&quot;ekg-base flat&quot;&gt;
         &lt;div class=&quot;ekg-line&quot;&gt;&lt;/div&gt;
       &lt;/div&gt;
     &lt;/div&gt;
