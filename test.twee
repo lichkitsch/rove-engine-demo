@@ -75,6 +75,8 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Alegreya SC', serif; }
   -o-filter: saturate(0%);
   -ms-filter: saturate(0%);
   filter: saturate(0%);
+  background: gray;
+  border: 3px solid silver;
   animation: stop 1s;
 }
 
