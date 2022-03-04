@@ -1,4 +1,4 @@
-::StoryData
+:: StoryData
 {
     "ifid": "0DEEAF35-C402-4832-A38D-5D47BB823C4C",
     "format": "SugarCube",
@@ -6,7 +6,7 @@
     "start": "Start"
 }
 
-::Stylesheet [stylesheet]
+:: Stylesheet [stylesheet]
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500&family=Average&display=swap');
 
 body {
@@ -89,19 +89,19 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Alegreya SC', serif; }
   animation: stop 1.5s;
 }
 
-::Javascript [script]
+:: Javascript [script]
 var pronouns = ["they","them"];
 
-::StoryTitle
+:: StoryTitle
 Gold House
 
-::StorySubtitle
+:: StorySubtitle
 A Rove Engine Demo
 
-::StoryAuthor
+:: StoryAuthor
 lich kitsch
 
-::Start
+:: Start
 <html>
     <div class="ekg-wrapper">
       <div class="ekg-base">
@@ -113,7 +113,7 @@ lich kitsch
 Welcome to ''//[[Gold House|Next Passage]]//'', a single-player demo for <<linkreplace "Rove Engine" t8n>>Rove Engine, a system for creating custom tabletop roleplaying games<</linkreplace>>.
 
 
-::Next Passage
+:: Next Passage
 <html>
     <div class="ekg-wrapper">
       <div class="ekg-base danger">
@@ -125,7 +125,7 @@ Welcome to ''//[[Gold House|Next Passage]]//'', a single-player demo for <<linkr
 By the pricking of my thumbs, [[something wicked|Third Passage]] this way comes.
 
 
-::Third Passage
+:: Third Passage
 <html>
     <div class="ekg-wrapper">
       <div class="ekg-base flat">
