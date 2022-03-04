@@ -76,6 +76,8 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Alegreya SC', serif; }
 
 .ekg-base.flat {
   animation: goGray 1s;
+  background: dimgray;
+  border: 3px solid silver;
 }
 
 .ekg-base.flat > .ekg-line {
