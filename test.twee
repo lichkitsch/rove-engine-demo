@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Alegreya SC', serif; }
 }
 
 .ekg-base.flat {
-  background: gray;
+  background: dimgray;
   border: 3px solid silver;
 }
 
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Alegreya SC', serif; }
   -o-filter: saturate(0%);
   -ms-filter: saturate(0%);
   filter: saturate(0%);
-  animation: stop 1s;
+  animation: stop 1.5s;
 }
 
 :: Javascript [script]
