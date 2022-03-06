@@ -6,93 +6,6 @@
     "start": "Start"
 }
 
-:: Stylesheet [stylesheet]
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500&family=Average&display=swap');
-
-body {
-  font-family: 'Average', serif;
-}
-
-.passage {
-  text-align: center;
-}
-
-h1, h2, h3, h4, h5, h6 { font-family: 'Alegreya SC', serif; }
-
-.ekg-wrapper { 
-  display: grid;
-  justify-content: center;
-}
-
-.ekg-base { 
-  width: 128px;
-  height: 128px;
-  background: black;
-  border-radius: 50%;
-  border: 4px solid darkslategray;
-  overflow: hidden;
-}
-
-.ekg-line {
-  width: 100%;
-  height: 100%;
-  background:  url("https://cdn.glitch.global/68b16429-fd90-4518-8f6d-aa98729471cc/ekg_line_green.png?v=1646352774879");
-  background-size: contain;
-  transition: filter 0.01s;
-  animation: beat 1s infinite;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes beat {
-  0% { clip-path: inset(0% 100% 0% 0%); }
-  50% { clip-path: inset(0); }
-  100% { clip-path: inset(0% 0% 0% 100%); }
-}
-
-.ekg-base.danger {
-  background-color: maroon;
-  border: 4px solid firebrick;
-}
-
-.ekg-base.danger > .ekg-line {
-  -webkit-filter: hue-rotate(256deg) saturate(999%);
-  -moz-filter: hue-rotate(256deg) saturate(999%);
-  -o-filter: hue-rotate(256deg) saturate(999%);
-  -ms-filter: hue-rotate(256deg) saturate(999%);
-  filter: hue-rotate(256deg) saturate(999%);
-  animation: beat 0.45s infinite;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes stop {
-  0% { clip-path: inset(0% 100% 0% 0%); }
-  100% { clip-path: inset(0% 0% 0% 0%); }
-}
-
-@keyframes goGray {
-  0% { background: black;
-    border: 4px solid darkslategray; }
-  100% { background: dimgray;
-    border: 3px solid silver; }
-}
-
-.ekg-base.flat {
-  animation: goGray 1.5s;
-  background: dimgray;
-  border: 3px solid silver;
-}
-
-.ekg-base.flat > .ekg-line {
-  -webkit-filter: saturate(0%);
-  -moz-filter: saturate(0%);
-  -o-filter: saturate(0%);
-  -ms-filter: saturate(0%);
-  filter: saturate(0%);
-  animation: stop 1.5s;
-}
-
-:: Javascript [script]
-var pronouns = ["they","them"];
 
 :: StoryTitle
 Gold House
@@ -100,37 +13,9 @@ Gold House
 :: StorySubtitle
 A Rove Engine Demo
 
-:: Start
-<html>
-    <div class="ekg-wrapper">
-      <div class="ekg-base">
-        <div class="ekg-line"></div>
-      </div>
-    </div>
-</html>
-
-Welcome to ''//[[Gold House|Next Passage]]//'', a single-player demo for <<linkappend "Rove Engine">>. <br/>Rove Engine is a system for creating custom tabletop roleplaying games<</linkappend>>.
-
-
-:: Next Passage
-<html>
-    <div class="ekg-wrapper">
-      <div class="ekg-base danger">
-        <div class="ekg-line"></div>
-      </div>
-    </div>
-</html>
-
-By the pricking of my thumbs, [[something wicked|Third Passage]] this way comes.
-
-
-:: Third Passage
-<html>
-    <div class="ekg-wrapper">
-      <div class="ekg-base flat">
-        <div class="ekg-line"></div>
-      </div>
-    </div>
-</html>
-
-You've met a terrible fate, haven't you?
+:: StoryIncludes
+stylesheet.twee
+javascript.twee
+intro/start.twee
+intro/nextPassage.twee
+intro/thirdPassage.twee
