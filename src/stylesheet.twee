@@ -5,6 +5,11 @@ body {
   font-family: 'Average', serif;
 }
 
+.lm > * {
+  background: white;
+  color: black;
+}
+
 .passage {
   text-align: center;
 }
