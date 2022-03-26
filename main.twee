@@ -13,9 +13,13 @@ Gold House
 :: StorySubtitle
 A Rove Engine Demo
 
-:: StoryIncludes
-stylesheet.twee
-javascript.twee
-intro/start.twee
-intro/nextPassage.twee
-intro/thirdPassage.twee
+:: Start
+<html>
+    <div class="ekg-wrapper">
+      <div class="ekg-base">
+        <div class="ekg-line"></div>
+      </div>
+    </div>
+</html>
+
+Welcome to ''//[[Gold House|Next Passage]]//'', a single-player demo for <<linkappend "Rove Engine">>. <br/>Rove Engine is a system for creating custom tabletop roleplaying games<</linkappend>>.
